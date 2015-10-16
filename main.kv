@@ -1,0 +1,27 @@
+<TouchCircle>:
+	canvas.before:
+		Color:
+			rgba: .5,.3,.5,1
+		Rectangle:
+			size: self.size
+			pos: self.pos
+<TouchRectangle>:
+	canvas.before:
+		Color:
+			rgba: .7,.3,.1,1
+		Rectangle:
+			size: self.size
+			pos: self.pos
+<TouchTriangle>:
+	canvas.before:
+		Color:
+			rgba: .2,.6,.5,1
+		Rectangle:
+			size: self.size
+			pos: self.pos
+			
+<TouchEffect>:
+	orientation: "horizontal"
+	TouchCircle:
+	TouchRectangle:
+	TouchTriangle:
